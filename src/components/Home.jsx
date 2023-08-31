@@ -11,9 +11,7 @@ const Home = () => {
             <div className="home-info-title">I Am Mohammed Shakokah</div>
             <div className="home-info-title">A Web Developer</div>
             <div className="home-info-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis
+              Passionate junior front-end developer crafting dynamic web experiences. Proficient in HTML, CSS, and JavaScript. Eager to learn, collaborate, and drive user-centric and innovative digital solutions.
             </div>
           </div>
         </Col>
