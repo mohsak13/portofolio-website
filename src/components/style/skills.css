@@ -1,0 +1,171 @@
+.skills {
+  background-color: var(--main-color);
+  padding: 40px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-header {
+  font-size: 60px;
+  color: white;
+  font-weight: 500px;
+  text-align: center;
+}
+
+.skills-header-description {
+  text-align: center;
+  width: 600px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 24px;
+  color: #050529;
+}
+
+.skills-contain {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skill-box {
+  width: 500px;
+  padding: 20px 30px;
+  background-color: white;
+  margin: 15px 20px;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-box-header {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.html {
+  color: red;
+}
+
+.css {
+  color: var(--main-color);
+}
+
+.js {
+  color: gold !important;
+}
+
+.react {
+  color: darkblue !important;
+}
+
+.ty {
+  color: skyblue !important;
+}
+
+.sass {
+  color: #c76395;
+}
+
+.skill-box-description {
+  font-size: 16px;
+  color: #666;
+}
+
+.skill-box-experience {
+  font-size: 22px;
+  color: darkblue !important;
+  margin-top: 4px;
+  font-weight: 500;
+  position: relative;
+}
+
+.skill-box-experience::before {
+  position: absolute;
+  content: attr(data-width);
+  left: 50px;
+  top: -3px;
+  font-size: 26px;
+  font-weight: 700;
+  color: gold;
+}
+
+.skill-box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background-color: gold;
+  z-index: 100;
+  left: 0;
+  bottom: 0px;
+}
+
+@media (max-width: 1199px) {
+  .skill-box {
+    width: 430px;
+  }
+}
+
+@media (max-width: 991px) {
+  .skills-contain {
+    margin-top: 120px;
+    display: flex;
+    margin-left: 60px;
+  }
+
+  .skill-box {
+    width: 600px;
+    height: 200px;
+  }
+
+  .skill-box-experience {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .skills-contain {
+    margin-top: 30px;
+  }
+
+  .skill-box {
+    width: 600px;
+    height: 200px;
+  }
+
+  .skill-box-experience {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .skills-contain {
+    width: 100%;
+  }
+  .skills-header-description {
+    font-size: 18px;
+    width: 400px;
+  }
+  .skill-box {
+    width: 450px;
+    height: auto;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 580px) {
+  .skills-header-description {
+    font-size: 18px;
+    width: 350px;
+  }
+
+  .skill-box {
+    width: 80%;
+  }
+}
+
+.skills {
+}
